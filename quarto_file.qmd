@@ -1,0 +1,58 @@
+---
+title: "Index" 
+subtitle: "Quarto File"
+institute: "Newcastle upon Tyne Hospitals NHS Foundation Trust"
+author: "Daniel Weiand"
+#date: "`r format(Sys.time(), '%d %B %Y')`" 
+date: today
+date-format: "dddd, D MMMM, YYYY"
+self-contained: true
+
+# #Some options need to be set in format > html
+format:
+  html:
+    #output-file: 'file' #Output file to write to
+    #output-ext: #Extension to use for generated output file
+    code-fold: false
+    code_download: true
+    embed-resources: true
+    standalone: true
+    toc: true #Include an automatically generated table of contents. This option has no effect if standalone is false.
+    toc-depth: 2 #Specify the number of section levels to include in the table of contents. The default is 3
+    toc_float: TRUE
+    highlight-style: pygments
+    fig-path: 'figures/'
+    fig-width: 9 #default is 7
+    fig-asp: 0.618 #When fig-asp is specified, the height of a plot (the option fig-height) is calculated from fig-width * fig-asp (the golden ratio is 0.618).
+    # fig-height: 6 #default is 7
+    fig-align: 'left' #Possible values are default, left, right, and center.
+    fig-format: 'png' #The graphical device to generate plot files. retina, png, jpeg, svg, or pdf
+    fig-cap-location: 'top' #top bottom or margin
+    fig-dpi: 300 #The DPI (dots per inch) for bitmap devices (default = 72)
+    df-print: paged #kable, tibble or paged. The default printing method is kable.
+    theme:
+    - mystyle.scss
+    - default #Quarto includes 25 themes from the Bootswatch project (for example, the website uses the cosmo theme). Available themes include: default cerulean cosmo cyborg darkly flatly journal litera lumen lux materia minty morph pulse quartz sandstone simplex sketchy slate solar spacelab superhero united vapor yeti zephyr
+    
+#Some referencing options need to be set in bibliography:, csl:, and link-citations: 
+bibliography: oef.bib  #Document bibliography (BibTeX or CSL). May be a single file or a list of files
+csl: bmj.csl #Citation Style Language file to use for formatting references.
+link-citations: yes
+
+#Some code chunk options need to be set in execute (credit: @rappa753)
+execute:
+  echo: FALSE #Include cell source code in rendered output. 
+  warning: FALSE #If FALSE, all warnings will be printed in the console instead of the output document
+  error: TRUE #By default, the code evaluation will not stop even in case of errors! If we want to stop on errors, we need to set this option to FALSE.
+  message: FALSE #Whether to preserve messages emitted by message() (similar to the option warning
+  cache: FALSE #use the cache option to cache the results of computations. You may however need to manually refresh the cache if you know that some other input (or even time) has changed sufficiently to warrant an update. To do this, render either individual files or an entire project using the --cache-refresh option, e.g. [terminal] quarto render mydoc.qmd --cache-refresh # single doc or [terminal] quarto render --cache-refresh # entire project
+
+editor: source
+
+---
+
+## Hello World
+
+<p>I'm hosted with GitHub Pages.</p>
+
+<a href="authorisation_manual.html">Authorisation Manual</a>
