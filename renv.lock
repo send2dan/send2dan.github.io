@@ -9,6 +9,16 @@
     ]
   },
   "Packages": {
+    "AMR": {
+      "Package": "AMR",
+      "Version": "2.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "c13079c4ca6f16e0e92707e3f76bbc75"
+    },
     "DBI": {
       "Package": "DBI",
       "Version": "1.1.3",
@@ -61,6 +71,60 @@
         "utils"
       ],
       "Hash": "539dc0c0c05636812f1080f473d2c177"
+    },
+    "R.cache": {
+      "Package": "R.cache",
+      "Version": "0.16.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "R.methodsS3",
+        "R.oo",
+        "R.utils",
+        "digest",
+        "utils"
+      ],
+      "Hash": "fe539ca3f8efb7410c3ae2cf5fe6c0f8"
+    },
+    "R.methodsS3": {
+      "Package": "R.methodsS3",
+      "Version": "1.8.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "utils"
+      ],
+      "Hash": "278c286fd6e9e75d0c2e8f731ea445c8"
+    },
+    "R.oo": {
+      "Package": "R.oo",
+      "Version": "1.25.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "R.methodsS3",
+        "methods",
+        "utils"
+      ],
+      "Hash": "a0900a114f4f0194cf4aa8cd4a700681"
+    },
+    "R.utils": {
+      "Package": "R.utils",
+      "Version": "2.12.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "R.methodsS3",
+        "R.oo",
+        "methods",
+        "tools",
+        "utils"
+      ],
+      "Hash": "3dc2829b790254bfba21e60965787651"
     },
     "R6": {
       "Package": "R6",
@@ -528,6 +592,19 @@
         "methods"
       ],
       "Hash": "4b68aa51edd89a0e044a66e75ae3cc6c"
+    },
+    "excel.link": {
+      "Package": "excel.link",
+      "Version": "0.9.12",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "OS_type": "windows",
+      "Requirements": [
+        "grDevices",
+        "methods",
+        "utils"
+      ],
+      "Hash": "796f19023d047d50e7f26afe6886f660"
     },
     "fansi": {
       "Package": "fansi",
@@ -1265,6 +1342,20 @@
       ],
       "Hash": "b37932b67288bc62bb81686b2f337a7d"
     },
+    "padr": {
+      "Package": "padr",
+      "Version": "0.6.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "Rcpp",
+        "dplyr",
+        "lubridate",
+        "rlang"
+      ],
+      "Hash": "87219527db60948eb37e3e9ee35479cf"
+    },
     "pillar": {
       "Package": "pillar",
       "Version": "1.8.1",
@@ -1608,6 +1699,13 @@
       "Repository": "CRAN",
       "Hash": "690bd2acc42a9166ce34845884459320"
     },
+    "rsvg": {
+      "Package": "rsvg",
+      "Version": "2.6.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "7aaf92c4adddc8a85696ae7f0123a725"
+    },
     "rvest": {
       "Package": "rvest",
       "Version": "1.0.3",
@@ -1795,6 +1893,25 @@
         "vctrs"
       ],
       "Hash": "671a4d384ae9d32fc47a14e98bfa3dc8"
+    },
+    "styler": {
+      "Package": "styler",
+      "Version": "1.10.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "R.cache",
+        "cli",
+        "magrittr",
+        "purrr",
+        "rlang",
+        "rprojroot",
+        "tools",
+        "vctrs",
+        "withr"
+      ],
+      "Hash": "d61238fd44fc63c8adf4565efe8eb682"
     },
     "survival": {
       "Package": "survival",
