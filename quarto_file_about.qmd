@@ -37,7 +37,7 @@ format:
 #Some referencing options need to be set in bibliography:, csl:, and link-citations: 
 bibliography: oef.bib  #Document bibliography (BibTeX or CSL). May be a single file or a list of files
 csl: bmj.csl #Citation Style Language file to use for formatting references.
-link-citations: yes
+link-citations: TRUE
 
 #Some code chunk options need to be set in execute (credit: @rappa753)
 execute:
@@ -65,6 +65,6 @@ editor: source
 
 <p>I'm hosted with GitHub Pages.</p>
 
-<a href="authorisation_manual.html">Authorisation Manual</a>
+<!-- <a href="authorisation_manual.html">Authorisation Manual</a> -->
 
-<a href="beer.html">Iatrogenic haemochromatosis secondary to iron overload resulting from guinness consumption in UK nephrologist population</a>
+<!-- <a href="beer.html">Iatrogenic haemochromatosis secondary to iron overload resulting from guinness consumption in UK nephrologist population</a> -->
