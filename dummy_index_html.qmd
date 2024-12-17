@@ -51,20 +51,11 @@ editor: source
 
 ---
 
-<!-- Index.html links to about.html with the following code -->
+Index.html links to about.html with the following code
 
-<!-- <!DOCTYPE html> -->
-<!-- <html> -->
-<!-- <head> -->
-<!-- <meta http-equiv="refresh" content="0; url=about.html"> -->
-<!-- </head>   -->
-<!-- </html> -->
-
-
-## Hello World
-
-<p>I'm hosted with GitHub Pages.</p>
-
-<!-- <a href="authorisation_manual.html">Authorisation Manual</a> -->
-
-<!-- <a href="beer.html">Iatrogenic haemochromatosis secondary to iron overload resulting from guinness consumption in UK nephrologist population</a> -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="refresh" content="0; url=https://send2dan.github.io/docs/index.html">
+</head>
+</html>
