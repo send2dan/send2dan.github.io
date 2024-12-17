@@ -121,7 +121,7 @@ knitr::write_bib(c(.packages(), "bookdown"), here::here("packages.bib"))
 cat(paste("% Automatically generated", Sys.time()),
   "\n% DO NOT EDIT",
   {
-    readLines("citedrive.bib") |> # which .bib file is being used?
+    readLines("oef.bib") |> # which .bib file is being used?
       paste(collapse = "\n")
   },
   {
