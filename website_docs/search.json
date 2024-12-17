@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Brand",
+    "section": "",
+    "text": "This is a document themed using brand.yml"
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Brand",
+    "section": "",
+    "text": "This is a document themed using brand.yml"
+  },
+  {
+    "objectID": "index.html#mermaid-diagram",
+    "href": "index.html#mermaid-diagram",
+    "title": "Brand",
+    "section": "Mermaid Diagram",
+    "text": "Mermaid Diagram\nThe following is a Mermaid diagram with branding applied:\n\n\n\n\n\ngraph TD;\n    A--&gt;B;\n    A--&gt;C;\n    B--&gt;D;\n    C--&gt;D;"
+  },
+  {
+    "objectID": "index.html#subheading",
+    "href": "index.html#subheading",
+    "title": "Brand",
+    "section": "Subheading",
+    "text": "Subheading\nNullam dapibus cursus dolor sit amet consequat. Nulla facilisi. Curabitur vel nulla non magna lacinia tincidunt. Duis porttitor quam leo, et blandit velit efficitur ut. Etiam auctor tincidunt porttitor. Phasellus sed accumsan mi. Fusce ut erat dui. Suspendisse eu augue eget turpis condimentum finibus eu non lorem. Donec finibus eros eu ante condimentum, sed pharetra sapien sagittis. Phasellus non dolor ac ante mollis auctor nec et sapien. Pellentesque vulputate at nisi eu tincidunt. Vestibulum at dolor aliquam, hendrerit purus eu, eleifend massa. Morbi consectetur eros id tincidunt gravida. Fusce ut enim quis orci hendrerit lacinia sed vitae enim."
+  },
+  {
+    "objectID": "index-revealjs.html#overview",
+    "href": "index-revealjs.html#overview",
+    "title": "Brand",
+    "section": "Overview",
+    "text": "Overview\nThis is a document themed using brand.yml"
+  },
+  {
+    "objectID": "index-revealjs.html#mermaid-diagram",
+    "href": "index-revealjs.html#mermaid-diagram",
+    "title": "Brand",
+    "section": "Mermaid Diagram",
+    "text": "Mermaid Diagram\nThe following is a Mermaid diagram with branding applied:\n\n\n\n\n\ngraph TD;\n    A--&gt;B;\n    A--&gt;C;\n    B--&gt;D;\n    C--&gt;D;"
+  },
+  {
+    "objectID": "index-revealjs.html#subheading",
+    "href": "index-revealjs.html#subheading",
+    "title": "Brand",
+    "section": "Subheading",
+    "text": "Subheading\nVestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante."
+  }
+]
