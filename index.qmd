@@ -1,5 +1,9 @@
 ---
 title: "Brand"
+institute: "Newcastle upon Tyne Hospitals NHS Foundation Trust"
+author: "Daniel Weiand" 
+date: today
+date-format: "dddd, D MMMM, YYYY"
 format:
   html: 
     other-links:
