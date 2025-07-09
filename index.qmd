@@ -14,8 +14,6 @@ format:
     output-file: index-typst.pdf
   revealjs:
     output-file: index-revealjs.html
-  dashboard: 
-    output-file: index-dashboard.html
 ---
 
 ## Overview
