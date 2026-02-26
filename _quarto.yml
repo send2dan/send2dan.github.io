@@ -3,7 +3,7 @@ project:
   output-dir: docs #important step for github pages as per https://www.youtube.com/watch?v=wZ9pZOFSCko
 
 website:
-  title: "_brand.yml Demo"
+  title: "Dr Daniel Weiand"
   navbar:
     left:
       - text: "Home"
