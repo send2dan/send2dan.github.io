@@ -120,9 +120,6 @@ vignettes/*.pdf
 # Ignore R Environment Variables
 .Renviron
 
-# Ignore pkgdown site
-docs/
-
 # Ignore translation temp files
 po/*~
 
