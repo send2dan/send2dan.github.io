@@ -1,42 +1,44 @@
 ---
-title: "Brand"
+title: "Dr Daniel Weiand"
 institute: "Newcastle upon Tyne Hospitals NHS Foundation Trust"
-author: "Daniel Weiand" 
+author: "Daniel Weiand"
 date: today
 date-format: "dddd, D MMMM, YYYY"
 format:
-  html: 
+  html:
     other-links:
       - href: dashboard.qmd
         icon: speedometer
         text: Dashboard
-  typst: 
+  typst:
     output-file: index-typst.pdf
   revealjs:
     output-file: index-revealjs.html
 ---
 
-## Overview
+## About
 
-This is a document themed using [**brand.yml**](https://posit-dev.github.io/brand-yml/)
+My name is **Dr Daniel Weiand MBChB FRCPath RCPathME MClinEd MBCS PGCertClinicalDataScience** and I work as a Consultant Medical Microbiologist at [Newcastle upon Tyne Hospitals NHS Foundation Trust](https://www.newcastle-hospitals.nhs.uk/).
 
-::: {.content-visible when-format="html:js"}
+- I joined Newcastle upon Tyne Hospitals NHS Foundation Trust (NUTH) as a Consultant in 2015, with special interests in nephrology, urology, solid organ transplantation (kidney and pancreas), vascular surgery, medical education, clinical informatics ([#RStats](https://twitter.com/hashtag/RStats) [@NHSrCommunity](https://twitter.com/NHSrCommunity)) and quality improvement.
+- Before moving to the North East of England, I trained in Aberdeen, Sheffield, York, Hull and Leeds.
+- My additional roles and responsibilities include:
+  - Clinical Informatics Lead for Clinical and Diagnostic Services (Board 8) at NUTH
+  - Associate Clinical Lecturer at Newcastle University
+  - Examiner for the Royal College of Pathologists (RCPath)
+  - "Q" fellow at The Health Foundation
+  - Member of The British Computer Society (BCS)
+  - Member of the Data Access Committee (DAC) for the [North East and North Cumbria (NENC) Secure Data Environment (SDE)](https://northeastnorthcumbria.nhs.uk/our-work/secure-data-environment/)
+- In 2025, I was awarded the Postgraduate Certificate (PGCert) in Clinical Data Science by the University of Manchester.
 
-## Mermaid Diagram
+## Favourite Quote
 
-The following is a Mermaid diagram with branding applied:
-```{mermaid}
-%%| echo: false
-%%| fig-align: center
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+"All models are wrong, but some are useful." - George Box
 
-:::
+## Links
 
-## Subheading
-
-{{< lipsum 1 >}}
+- [Integrated Laboratory Medicine at Newcastle upon Tyne Hospitals NHS Foundation Trust](https://laboratories.newcastle-hospitals.nhs.uk/)
+- [Twitter/X: \@send2dan](https://twitter.com/send2dan?lang=en)
+- [GitHub: send2dan](https://github.com/send2dan/public/)
+- [ORCiD: 0000-0001-5854-3452](https://orcid.org/0000-0001-5854-3452)
+- [Google Scholar](https://scholar.google.co.uk/citations?user=MlVn2FQAAAAJ&hl=en)
