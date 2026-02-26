@@ -1,24 +1,24 @@
 ---
-title: "Dr Daniel Weiand"
+title: "Dr Daniel Weiand <br> MBChB FRCPath RCPathME MClinEd PGCertClinicalDataScience"
+subtitle: "Consultant Medical Microbiologist"
 institute: "Newcastle upon Tyne Hospitals NHS Foundation Trust"
-author: "Daniel Weiand"
+author: "Daniel Weiand "
 date: today
 date-format: "dddd, D MMMM, YYYY"
-format:
-  html:
-    other-links:
-      - href: dashboard.qmd
-        icon: speedometer
-        text: Dashboard
-  typst:
-    output-file: index-typst.pdf
-  revealjs:
-    output-file: index-revealjs.html
+format: html #:
+  #   other-links:
+  #     - href: dashboard.qmd
+  #       icon: speedometer
+  #       text: Dashboard
+  # typst:
+  #   output-file: index-typst.pdf
+  # revealjs:
+  #   output-file: index-revealjs.html
 ---
 
 ## About
 
-My name is **Dr Daniel Weiand MBChB FRCPath RCPathME MClinEd MBCS PGCertClinicalDataScience** and I work as a Consultant Medical Microbiologist at [Newcastle upon Tyne Hospitals NHS Foundation Trust](https://www.newcastle-hospitals.nhs.uk/).
+My name is **Dr Daniel Weiand** and I work as a Consultant Medical Microbiologist at [Newcastle upon Tyne Hospitals NHS Foundation Trust](https://www.newcastle-hospitals.nhs.uk/).
 
 - I joined Newcastle upon Tyne Hospitals NHS Foundation Trust (NUTH) as a Consultant in 2015, with special interests in nephrology, urology, solid organ transplantation (kidney and pancreas), vascular surgery, medical education, clinical informatics ([#RStats](https://twitter.com/hashtag/RStats) [@NHSrCommunity](https://twitter.com/NHSrCommunity)) and quality improvement.
 - Before moving to the North East of England, I trained in Aberdeen, Sheffield, York, Hull and Leeds.
