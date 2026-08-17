@@ -47,7 +47,6 @@ packages_to_download <- c(
   #"flextable", # for creating pretty (non-interactive) tables
   #"reactable", # for creating interactive tables in quarto reports
   #"plotly", # for creating interactive charts in quarto reports
-  #"excel.link", # to read password protected excel files (xl.read.file function)
   # "dplyr",
   # "lubridate",
   # "stringr",
